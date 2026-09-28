@@ -1,2 +1,5 @@
 # focus-barrage
-Barrage plain-language clone of fitzyracing1/focus
+
+Barrage clone of [fitzyracing1/focus](https://github.com/fitzyracing1/focus).
+
+Read [listing.barrage](listing.barrage).

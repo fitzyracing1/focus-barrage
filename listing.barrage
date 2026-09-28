@@ -1,0 +1,41 @@
+# Focus
+
+> A tiny, even C++ interface for an AI model. Header-only.
+
+## Purpose
+Explain focus as the thin door every model is asked to walk through. Source: fitzyracing1/focus.
+
+## How it works (plain English)
+1. Include the header.
+2. Talk to any model through the same small door.
+3. Do not grow a framework.
+4. Keep the page and the header together in the source.
+
+## Key ideas
+- Header-only (you include a file; you do not link a large library)
+- Uniform interface (every model sees the same door)
+- Minimal (few calls on purpose)
+
+## The actual code
+```
+# source: fitzyracing1/focus
+#include "focus.hpp"
+model.ask(input)
+```
+
+## Line-by-line translation
+1. #include "focus.hpp" → “bring in the thin door”
+2. model.ask(input) → “send one question through that door”
+
+## Decisions the program makes
+- If a new model appears → it must use this same door
+- If a call is not on the door → it does not belong in focus
+
+## What a person would notice
+One small header instead of a stack of tools.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the header in fitzyracing1/focus.
